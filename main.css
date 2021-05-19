@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    background:cornflowerblue;
+}
+.container{
+    background: white;
+    padding: 4rem 12rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.container h3{
+    color: grey;
+    font-size: 16px;
+    margin: 2rem 0;
+    letter-spacing: 2px;
+}
+.container p{
+    margin: 2rem 0;
+    width: 100%;
+}
+.container button{
+    background: powderblue;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;;
+}
